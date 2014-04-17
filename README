@@ -1,0 +1,6 @@
+This is a fork of the AOSP OpenSSL repo with some changes so
+that we can build a libcrypto.a for use with EfiTools.
+
+THIS CODE IS FOR DEVELOPER TOOLS/USE-CASES ONLY.
+Do not link into any production software!
+
