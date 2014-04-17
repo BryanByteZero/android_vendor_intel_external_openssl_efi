@@ -590,12 +590,12 @@ local_src_files := \
  crypto/x509v3/v3err.c
 
 CFLAGS += \
- -I$(ANDROID_BUILD_TOP)/external/openssl/ \
- -I$(ANDROID_BUILD_TOP)/external/openssl/crypto/ \
- -I$(ANDROID_BUILD_TOP)/external/openssl/crypto/asn1/ \
- -I$(ANDROID_BUILD_TOP)/external/openssl/crypto/evp/ \
- -I$(ANDROID_BUILD_TOP)/external/openssl/crypto/modes/ \
- -I$(ANDROID_BUILD_TOP)/external/openssl/include/ \
+ -I$(ANDROID_BUILD_TOP)/external/openssl_efi/ \
+ -I$(ANDROID_BUILD_TOP)/external/openssl_efi/crypto/ \
+ -I$(ANDROID_BUILD_TOP)/external/openssl_efi/crypto/asn1/ \
+ -I$(ANDROID_BUILD_TOP)/external/openssl_efi/crypto/evp/ \
+ -I$(ANDROID_BUILD_TOP)/external/openssl_efi/crypto/modes/ \
+ -I$(ANDROID_BUILD_TOP)/external/openssl_efi/include/ \
  -I$(ANDROID_BUILD_TOP)/external/zlib/
 
 LOCAL_SRC_FILES += $(local_src_files)
